@@ -9,7 +9,11 @@ layout: default
 
 <ul class="post-footer">
   <li><span>Categories:</span> {{page.categories}}</li>
-  <li><span>Tags:</span> {{page.tags}}</li>
+  <li><span>Tags:</span> 
+    {% for tag in page.tags %}
+		  {{tag}}&nbsp;
+    {% endfor %}
+	</li>
 </ul>
 
 </div>
