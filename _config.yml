@@ -1,0 +1,6 @@
+name: 每周推荐阅读 By DigitalSonic
+markdown: redcarpet
+pygments: true
+permalink: /:year/:month/:day/:title/
+relative_permalinks: true
+future: true
