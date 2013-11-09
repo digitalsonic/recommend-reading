@@ -12,8 +12,11 @@ title: 每周推荐阅读
   <p />
   <h1>往期推荐内容</h1>
   <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
+    {% if paginator.total_pages > 1 %}
+      <li><span>想要更多？<a href="/posts">请点这里</a></span></li>
+    {% endif %}    
   </ul>
 </div>

@@ -4,3 +4,4 @@ pygments: true
 permalink: /:year/:month/:day/:title/
 relative_permalinks: true
 future: true
+paginate: 10
