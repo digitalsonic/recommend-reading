@@ -1,4 +1,6 @@
 name: 每周推荐阅读 By DigitalSonic
+description: 本站汇总了由DigitalSonic在2012年8月开始的《每周推荐阅读》系列的所有文章。
+url: http://reading.digitalsonic.me
 markdown: redcarpet
 pygments: true
 permalink: /:year/:month/:day/:title/
